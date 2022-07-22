@@ -1,11 +1,11 @@
 import green from './../assets/produtores/green.png';
 import salad from './../assets/produtores/salad.png';
-import jannyJack from './../assets/produtores/janny-jack.png';
+import jannyJack from './../assets/produtores/jenny-jack.png';
 import grow from './../assets/produtores/grow.png';
 import potager from '../assets/produtores/potager.png';
 
 const gerarNumeroAleatorio = (minimo, maximo) => {
-  return Math.floor(Math.random() * (maximo - minimo + 1) + minimo);
+  return Math.floor(Math.random() * (maximo - minimo + 1) + minimo)
 };
 
 const produtores = {
